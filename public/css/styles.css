@@ -1,25 +1,25 @@
 html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+  background-color: #F8EFBA;
+  background-image: -webkit-linear-gradient(65deg, #f1c40f 50%, #F8EFBA 50%);
   min-height: 1000px;
   font-family: 'Poppins', sans-serif;
 }
 
 h1 {
-  color: #fff;
+  color: #f5f6fa;
   padding: 10px;
 }
 
 .box {
   max-width: 400px;
   margin: 50px auto;
-  background: white;
+  background: #f5f6fa;
   border-radius: 5px;
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 #heading {
-  background-color: #A683E3;
+  background-color: #f1c40f;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ h1 {
   min-height: 70px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f5f6fa;
 }
 
 .item:last-child {
@@ -36,7 +36,7 @@ h1 {
 
 input:checked+p {
   text-decoration: line-through;
-  text-decoration-color: #A683E3;
+  text-decoration-color: #f1c40f;
 }
 
 input[type="checkbox"] {
@@ -61,8 +61,8 @@ button {
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
-  background-color: #A683E3;
-  color: #fff;
+  background-color: #f1c40f;
+  color: #f5f6fa;
   font-size: 30px;
   padding-bottom: 6px;
   border-width: 0;
@@ -74,14 +74,16 @@ input[type="text"] {
   top: 10px;
   border: none;
   background: transparent;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 200;
   width: 313px;
+  font-family: 'Poppins', sans-serif;
 }
 
 input[type="text"]:focus {
   outline: none;
-  box-shadow: inset 0 -3px 0 0 #A683E3;
+  box-shadow: inset 0 -3px 0 0 #f1c40f;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::placeholder {
@@ -90,7 +92,7 @@ input[type="text"]:focus {
 }
 
 footer {
-  color: white;
+  color: #f5f6fa;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
